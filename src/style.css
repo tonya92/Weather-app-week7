@@ -1,0 +1,33 @@
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+.weather-app {
+  margin: 30px auto;
+  padding: 20px;
+  width: 700px;
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  color: black;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature strong {
+  font-size: 70px;
+}
+.weather-temperature .units {
+  position: relative;
+  top: -38px;
+}
