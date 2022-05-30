@@ -36,3 +36,13 @@ small {
   width: 700px;
   margin-left: 300px;
 }
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
